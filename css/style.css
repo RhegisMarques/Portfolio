@@ -3,7 +3,7 @@
     --secound-bg-color: #191919;
     --text-color: #fff;
     --secound-color: #c6c9d8bf;
-    --main-color: #5898a3;
+    --main-color: #2948fd;
     --gig-font: 5.3rem;
     --h2-font: 4.2rem;
     --p-font: 1.1rem;
@@ -38,7 +38,7 @@ header {
     justify-content: space-between;
     background: transparent;
     padding: 25px 15%;
-    transition-duration: .3s;
+    transition-duration: .4s;
 
 }
 
@@ -62,7 +62,7 @@ header {
     color: var(--text-color);
     font-weight: bold;
     font-size: 1rem;
-    padding: 10px 20px;
+    padding: 10px 10px;
 }
 
 .navbar a::after {
@@ -73,7 +73,7 @@ header {
     background: var(--main-color);
     left: 0;
     bottom: -4px;
-    transition: ease .40s;
+    transition: ease .4s;
 }
 
 .navbar a:hover ::after {
@@ -424,7 +424,7 @@ form textarea {
 
     .navbar {
         position: absolute;
-        top: 100%;
+        top: -700px;
         left: 0;
         right: 0;
         flex-direction: column;
