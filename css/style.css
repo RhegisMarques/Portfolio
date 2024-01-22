@@ -42,6 +42,20 @@ header {
 
 }
 
+header.sticky {
+    padding: 12px 15%;
+    background: var(--main-color);
+}
+
+.sticky .navbar a::after {
+    background: var(--text-color);
+}
+
+.sticky .h-btn {
+    background-color: var(--bg-color);
+    color: #ffffff;
+}
+
 .logo {
     color: var(--text-color);
     font-size: 30px;
@@ -178,20 +192,6 @@ span {
 
 }
 */
-
-header.sticky {
-    padding: 12px 15%;
-    background: var(--main-color);
-}
-
-.sticky .navbar a::after {
-    background: var(--text-color);
-}
-
-.sticky .h-btn {
-    background-color: var(--bg-color);
-    color: #ffffff;
-}
 
 .about {
     background: var(--secound-bg-color);
